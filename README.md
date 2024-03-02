@@ -1,6 +1,6 @@
 # odin-recipes
 
-Here is my first web project with Odin Recipes.
+[Here](https://eevlimoglu.github.io/odin-recipes/) is my first web project with Odin Recipes.
 
 3 Recipes has been added into the web page. All 3 of them having the same structure:
 - A headline with recipes name
