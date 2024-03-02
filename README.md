@@ -11,3 +11,4 @@
 
 I used links, images, lists, headings and paragraphs in this simple HTML project.
 I also created all the directories and files with Git and committed while making changes.
+The content of recipes has been taken from [allrecipes](https://www.allrecipes.com).
