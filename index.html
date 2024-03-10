@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/roasted-broccoli.html">Easy Roasted Broccoli</a></li>
-        <li><a href="./recipes/garlic-mushroom.html">Garlic Mushroom</a></li>
-        <li><a href="./recipes/glazed-carrots.html">Glazed Carrots</a></li>
-    </ul>
+    <div class="container">
+        <ul>
+            <li class="recipe" id="broccoli"><a href="./recipes/roasted-broccoli.html"><img src="images/broccoli.png" alt="broccoli"/> <span>Easy Roasted Broccoli</span></a></li>
+            <li class="items"><img class="index-icons" src="images/duration.png" alt="clock"/> <p>30 min</p> <img class="index-icons" src="images/bowl.png" alt="broccoli"/> <p>3 Person</p></li>
+            <li class="recipe" id="mushrooms"><a href="./recipes/garlic-mushroom.html"><img src="images/mushrooms.png" alt="mushrooms"/> <span>Garlic Mushroom</span></a></li>
+            <li class="items"><img class="index-icons" src="images/duration.png" alt="clock"/> <p>45 min</p> <img class="index-icons" src="images/bowl.png" alt="broccoli"/> <p>3 Person</p></li>
+            <li class="recipe" id="carrots"><a href="./recipes/glazed-carrots.html"><img src="images/carrots.png" alt="carrots"/> <span>Glazed Carrots</span></a></li>
+            <li class="items"><img class="index-icons" src="images/duration.png" alt="clock"/> <p>5 min</p> <img class="index-icons" src="images/bowl.png" alt="broccoli"/> <p>1 Person</p></li>
+        </ul>
+    </div>
 </body>
 </html>
